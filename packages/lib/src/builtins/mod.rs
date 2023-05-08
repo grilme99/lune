@@ -1,6 +1,7 @@
 pub(crate) mod fs;
 pub(crate) mod net;
 pub(crate) mod process;
+pub(crate) mod regex;
 pub(crate) mod serde;
 pub(crate) mod stdio;
 pub(crate) mod task;

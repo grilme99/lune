@@ -16,6 +16,7 @@ pub fn create(lua: &'static Lua, args: Vec<String>) -> LuaResult<()> {
         ("serde", builtins::serde::create(lua)?),
         ("stdio", builtins::stdio::create(lua)?),
         ("task", builtins::task::create(lua)?),
+        ("regex", builtins::regex::create(lua)?),
         #[cfg(feature = "roblox")]
         ("roblox", builtins::roblox::create(lua)?),
     ];

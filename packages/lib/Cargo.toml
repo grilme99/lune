@@ -32,6 +32,7 @@ serde_json.workspace = true
 serde_yaml.workspace = true
 toml.workspace = true
 tokio.workspace = true
+regex.workspace = true
 
 async-trait = "0.1"
 blocking = "1.3"
